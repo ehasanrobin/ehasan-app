@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1024px) {
+    .Home {
+        min-height: 75vh;
+        background-color: var(--main-to-dark-color);
+        padding: 180px 0px;
+        border-radius: 0px 0px 200px;
+        overflow: hidden;
+    }
+    .how-it-works-item {
+        padding: 30px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .app-download-item {
+        text-align: center;
+        padding: 30px 30px 40px;
+        border-radius: 10px;
+        background: var(--black-100);
+        z-index: 1;
+        margin-top: 20px;
+    }
+    .home-img .circle {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        height: 320px;
+        width: 319px;
+        border: 1px solid rgb(165, 163, 163);
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .home-img .circle::before {
+        content: "";
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 50%;
+        left: 30px;
+        top: 30px;
+        transform-origin: 142px 142px;
+        animation: 10s linear 0s infinite normal none running spin_01;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .pricing-plan {
+        box-shadow: var(--shadow-black-100);
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .effect-wrap .effect-1 {
+        top: 11%;
+        right: 9%;
+        animation: 3s linear 0s infinite normal none running spin_01;
+        color: var(--bs-danger);
+        font-size: 25px;
+    }
+    .effect-wrap .effect-2 {
+        top: 19%;
+        left: 14%;
+        animation: 3s linear 0s infinite normal none running spin_01;
+        color: var(--color-2);
+        font-size: 25px;
+    }
+    .effect-wrap .effect-3 {
+        bottom: 33%;
+        left: 4%;
+        animation: 3s linear 0s infinite normal none running bounceTop01;
+        color: var(--color-1);
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home-img {
+        position: relative;
+        margin-top: 142px;
+    }
+}
