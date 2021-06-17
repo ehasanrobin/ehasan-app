@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1024px) {
     .Home {
-        min-height: 75vh;
+        min-height: 100vh;
         background-color: var(--main-to-dark-color);
         padding: 180px 0px;
         border-radius: 0px 0px 200px;
