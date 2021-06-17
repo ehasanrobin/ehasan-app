@@ -67,7 +67,7 @@
         font-size: 25px;
     }
     .effect-wrap .effect-3 {
-        bottom: 33%;
+        bottom: 19%;
         left: 4%;
         animation: 3s linear 0s infinite normal none running bounceTop01;
         color: var(--color-1);
